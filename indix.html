@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title> Shivam kumar | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <!-- Header / Home -->
+  <header id="home">
+    <div class="container header-container">
+      <div class="left">
+        <img src="profile.jpg" alt="shivam Kumar" class="profile-pic" />
+      </div>
+      <div class="right">
+        <h1>Hi, I’m <span class="highlight">shivam Kumar</span></h1>
+        <p>I’m a dedicated <span class="highlight">Web Developer</span> & Web Designer</p>
+        <div class="buttons">
+          <a href="ShivamResume.pdf" download class="btn">Download Resume</a>
+          <a href="https://www.linkedin.com/in/shivam-kumar-b0b407225/" class="btn" target="_blank">Visit LinkedIn</a>
+          <a href="https://github.com/Shivamkumar447" class="btn" target="_blank">Visit GitHub</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I'm a passionate Web Developer who builds responsive, dynamic websites using HTML, CSS, JavaScript— always learning and creating with curiosity and care.</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="project1.png" alt="Job Application Website"/>
+          <h3>Job Application Website</h3>
+          <p>A fully functional job application website that allows users to browse job listings, submit applications, and track their application status. The platform features user authentication, role-based dashboards (for recruiters and applicants), and a clean, responsive UI.</p>
+        </div>
+        <div class="project-card">
+          <img src="project2.png" alt="Weather App"/>
+          <h3>Weather App</h3>
+          <p>A sleek and responsive weather app that shows real-time weather data based on your location.
+Built with HTML, CSS, JavaScript, and OpenWeatherMap API for accurate forecasts.
+Features include current temperature, humidity and wind speed.</p>
+        </div>
+        <!-- <div class="project-card"> -->
+          <!-- <img src="project3.png" alt="Personal Portfolio"/>
+          <h3>Personal Portfolio</h3>
+          <p>A personal portfolio website showcasing my skills, projects, certifications, and achievements in web development.
+Designed with HTML, CSS, JavaScript for a clean, interactive, and responsive user experience.
+Includes featured projects, resume download, and contact form for collaboration opportunities.</p> -->
+        <!-- </div> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required/>
+        <input type="email" id="email" placeholder="Your Email" required/>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <p id="formStatus"></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 shivamkumar | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</htmlW>
